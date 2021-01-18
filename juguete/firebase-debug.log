@@ -1,0 +1,37 @@
+[debug] [2021-01-13T03:34:36.265Z] ----------------------------------------------------------------------
+[debug] [2021-01-13T03:34:36.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-01-13T03:34:36.267Z] CLI Version:   9.2.0
+[debug] [2021-01-13T03:34:36.267Z] Platform:      win32
+[debug] [2021-01-13T03:34:36.267Z] Node Version:  v12.18.3
+[debug] [2021-01-13T03:34:36.268Z] Time:          Wed Jan 13 2021 00:34:36 GMT-0300 (GMT-03:00)
+[debug] [2021-01-13T03:34:36.268Z] ----------------------------------------------------------------------
+[debug] [2021-01-13T03:34:36.269Z] 
+[debug] [2021-01-13T03:34:36.276Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-13T03:34:36.277Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-01-13T03:34:38.342Z] [hub] writing locator at C:\Users\LENOVO\AppData\Local\Temp\hub-otto-kraus-ae6ab.json
+[debug] [2021-01-13T03:34:40.389Z] > refreshing access token with scopes: []
+[debug] [2021-01-13T03:34:40.391Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-13T03:34:40.471Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 13 Jan 2021 03:34:43 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-13T03:34:40.517Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/otto-kraus-ae6ab/webApps/-/config [none]
+[debug] [2021-01-13T03:34:41.690Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/otto-kraus-ae6ab/webApps/-/config 200
+[debug] [2021-01-13T03:34:41.691Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/otto-kraus-ae6ab/webApps/-/config {"projectId":"otto-kraus-ae6ab","appId":"1:361651624873:web:2df9b8f65a2ba962d0c2b8","storageBucket":"otto-kraus-ae6ab.appspot.com","locationId":"us-central","apiKey":"AIzaSyCNzvhjGKYzPkNI0cuza2flqj7VUUXyU1s","authDomain":"otto-kraus-ae6ab.firebaseapp.com","messagingSenderId":"361651624873"}
+[info] i  hosting: Serving hosting files from: y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1my\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the ---project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the ---project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
